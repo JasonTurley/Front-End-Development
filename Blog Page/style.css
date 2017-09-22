@@ -1,0 +1,28 @@
+html {
+	background-color: silver;
+}
+
+h1 {
+	color: silver;
+	font-size: 22px;
+	font-family: Futura, Arial, Courier;
+	background-color: black; 
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	font-size: 18px;
+	font-family: Sans-seriff, Futura, Arial;
+}
+
+h3 {
+	font-size: 17px;
+	font-family: sans-seriff, arial;
+}
+
+li {
+	font-family: sans-seriff, arial;
+	font-size: 14px;
+}
+
