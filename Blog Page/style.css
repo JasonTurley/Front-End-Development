@@ -1,29 +1,41 @@
 html {
-	background-color: goldenrod;
+	background-color: rgb(120, 59, 219);
 }
 
 /* Change the color of all links*/
 a {
 	color: blue;
 }
-/* Visited links change to white*/
+
+/* unvisited link */
+a:link {
+	color: red;
+
+}
+/* visited links change to white*/
 a:visited {
 	color: #FFFFFF;  
 }
-
-a:hover,
-a:focus,
-a:active {
-	color: darkred;
+ /* mouse over link*/
+a:hover
+ {
+	color: hotpink;
 	text-decoration: none;
 }
+
 h1 {
-	color: goldenrod;
+	color: rgb(120, 59, 219);
 	font-size: 22px;
 	font-family: Futura, Arial, Courier;
-	background-color: black; 
 	text-align: center;
 }
+
+.header {
+	background: rgb(173, 173, 158);
+	text-align: right;
+}
+
+
 
 h2 {
 	color: black;
@@ -39,15 +51,4 @@ h3 {
 li {
 	font-family: sans-seriff, arial;
 	font-size: 14px;
-}
-
-li:nth-of-type(even) {
-	background-color: #ccc;
-}
-
-.git {
-	color: purple;
-	font-family: Arial, Courier;
-	font-size: 13px;
-	text-align: right;
 }
