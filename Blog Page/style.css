@@ -1,5 +1,5 @@
 html {
-	background-color: rgb(120, 59, 219);
+	background-color: lightblue;
 }
 
 /* Change the color of all links*/
@@ -24,13 +24,18 @@ a:hover
 }
 
 h1 {
-	color: rgb(120, 59, 219);
+	color: lightblue;
 	font-size: 22px;
 	font-family: Futura, Arial, Courier;
 	text-align: center;
 }
 
 .header {
+	border-top: solid;
+	border-right: dotted;
+	border-bottom: solid;
+	border-left: dotted;
+	border-color: black;
 	background: rgb(173, 173, 158);
 	text-align: right;
 }
