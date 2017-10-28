@@ -46,3 +46,63 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+=================================
+Grid
+=================================
+*/
+/* Select every imaginable element and change the box sizing*/
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;	/* Chrome and Safari */
+	-moz-box-sizing: border-box;	/* Firefox */
+	box-sizing: border-box;			/* Default */
+}
+
+.container
+{
+	
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0, auto;
+	width: 960px;
+}
+
+/*
+=============================
+Typography
+=============================
+*/
+
+h1, h3, h4, h5, p {
+	margin-bottom: 22px;
+}
+
+/*
+==============================
+Button
+==============================
+*/
+
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;		
+}
+
+.btn-alt {
+	border: 1px solid #dfe2e5;
+	padding: 10px 30px;
+}
+
+/*
+==================================
+Home
+==================================
+*/
+
+.hero {
+	padding: 22px, 80px, 66px, 80px;
+}
