@@ -1,5 +1,5 @@
 html {
-	background-color: rgb(120, 59, 219);
+	background-color: #1d1deb;
 }
 
 /* Change the color of all links*/
@@ -24,23 +24,24 @@ a:hover
 }
 
 h1 {
-	color: rgb(120, 59, 219);
-	font-size: 22px;
-	font-family: Futura, Arial, Courier;
+	font: 22px Futura, Arial, Courier;
 	text-align: center;
+	position: relative;
+	top: 20px;
 }
 
-.header {
+header {
 	background: rgb(173, 173, 158);
+	border: solid;
+	border-radius: 5px;
+	width: 50%;
+	margin: 0 auto;
 	text-align: right;
 }
 
-
-
 h2 {
 	color: black;
-	font-size: 18px;
-	font-family: Sans-seriff, Futura, Arial;
+	font: bold 18px Futura, Arial;
 }
 
 h3 {
@@ -48,7 +49,7 @@ h3 {
 	font-family: sans-seriff, arial;
 }
 
-li {
-	font-family: sans-seriff, arial;
-	font-size: 14px;
+ul li {
+	font: italic bold 14px sans-seriff, arial;
+	color: #fff;
 }
