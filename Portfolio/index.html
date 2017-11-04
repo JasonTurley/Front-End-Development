@@ -10,29 +10,33 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <title>Home Page</title>
     </head>
     <body>
         <div class="jumbotron">
-        <div class="container-fluid">
+        <div class="container-fluid grid">
             <header>
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 title">
+                        <h1 class="name">Jason Turley</h1>
+                        <h1 class="title">Software Developer</h1>
+                    </div>
+                    <div class="col-sm-6">
                         <img class="profile-pic"
-                        src="assets\images\IMG_1550.jpg" 
-                        alt="Jason and Gina enjoying themselves on a summer trip to Chicago"
-                        title="Happy Couple"
+                            src="assets\images\IMG_1550.jpg" 
+                            alt="Jason and Gina enjoying themselves on a summer trip to Chicago"
+                            title="Happy Couple"
                         width=150 height=170>
                     </div>
-                    <div class="col-sm-9">
-                        <h1>Jason Turley</h1>
-                        <h1>Software Developer</h1>
+                </div>
+                <div class="row">
                         <ul>
                             <li class="about-me">Upperclassman at the University of Illinois at Urbana-Champaign studying Computer Science and Anthropology</li>
                             <li class="about-me">Dedicated to making engaging UI/UX experiences through web and software development</li>
                         </ul>
-                    </div>
                 </div>
             </header>
         </div>
@@ -42,7 +46,7 @@
                 <h2>Portfolio</h2>
                 <div class="row">
                     <div class="col-sm-5">
-                        <div class="image-responsive">
+                        <div class="img-fluid">
                             <a href="https://codepen.io/jturley/pen/MEvrWG" target="_blank">
                                 <img src="assets\images\tribute_page.png"
                                     alt="A tribute page dedicated to Dr. Norman Borlaug"
@@ -50,11 +54,33 @@
                             </a>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section class="contact">
+                <h2>Contact Me</h2>
+                <div class="row">
                     <div class="col-sm-5">
-                        
+                        <form>
+                            <div class="form-group">
+                                <label class="label" for="email">Send email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="From:">
+                                <input type="subject" class="form-control" id="subject" placeholder="Subject:">
+                                <input type="message" class="form-control" id="msg" placeholder="Message:">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-sm-7">
+                        <aside>
+                            <p>Feel free to contact me anytime for more information about myself, my work ethic, hobbies, or anything else you want to know! </p>
+                            <a href="https://github.com/JasonTurley" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                        </aside>
                     </div>
                 </div>
             </section>
         </div>
-        </body>
+        <footer>
+            <p>Coded with <i class="fa fa-heart" aria-hidden="true"></i> by Jason Turley</p>
+        </footer>
+    </body>
 </html>
