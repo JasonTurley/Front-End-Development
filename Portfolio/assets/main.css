@@ -49,96 +49,24 @@ table {
 
 /*
 =================================================================
+Background
+=================================================================
+*/
+
+html {
+	background-color: #e6d4d448
+}
+
+/*
+=================================================================
 Heading
 =================================================================
 */
 
-.grid {
-	width: 960px;
-}
-@import url(https://fonts.googleapis.com/css?family=Lato);
-
 h1 {
-	text-align: center;
-	padding-bottom: 10px;
-	display: block;
-	padding-left: 280px;	
-}
-
-.name {
-	font-family: "Lato", "Helvetica Neue", sans-serif;
-	font-size: 40px;
-	font-weight: 600;
-}
-
-.title {
-	font-family: "Lato", "Helvetica Neue", sans-serif;
-	font-size: 40px;
-	font-weight: 200;
-}
-
-.center {
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	text-align: center;
-}
-
-.profile-pic {
-	position: relative;
-	transform: rotate(90deg);
-	border: 3px solid #000;
-	border-radius: 50%;
-}
-
-.about-me {
-	font: 15px "Lato";
-	text-align: center;
-	padding-top: 20px;
-}
-
-/*
-=================================================================
-Main body
-=================================================================
-*/
-body {
-	background-color: rgb(243, 102, 102);
-}
-
-h2 {
-	text-align: center;
-	font: 34px "Lato" ,"Open Sans", Helvetica, Sans-serif;
-	font-weight: 500px; 
-	padding-top: 10px;
-	padding-bottom: 30px; 
-	text-decoration: underline;
-}
-
-/*
-=================================================================
-Contact
-=================================================================
-*/
-
-.contact {
-	padding-bottom: 30px;
-}
-.label {
-	padding-bottom: 8px;
-	font: 20px "Open Sans", Helvetica;
-}
-
-#msg {
-	padding-bottom: 60px;
-}
-
-aside p {
-	font-family: "Helvetica";
-	vertical-align: center;
-	padding-top: 50px;
-	padding-left: 15px;
-	padding-bottom: 20px;
+	font-size: 36px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	color: blue;
 }
 
 /*
